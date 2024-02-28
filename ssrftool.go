@@ -561,7 +561,7 @@ func test_ssrf(domains string, paramsFile string, payloads string, match string,
 
 			}else {
 
-				newLink:=link+"/"+payload
+				newLink:=link+payload
 				if silent == false {
 					fmt.Println(Bold(Red(">")), Bold(White(" Testing ")), Bold(White(newLink)))
                                 }
